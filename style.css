@@ -1,0 +1,16 @@
+body{
+    background-color: #121212;
+    color: var(--bs-light);
+}
+
+.bg-surface1{
+    background-color: var(--bs-gray-800);
+}
+
+.card{
+    --bs-card-bg: var(--bs-gray-800);
+}
+
+.img-hover:hover{
+    opacity: 0.8;
+}
