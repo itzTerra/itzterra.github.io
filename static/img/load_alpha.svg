@@ -6,7 +6,7 @@
    height="512"
    viewBox="0 0 512 512"
    version="1.1"
-   id="svg5"
+   id="loading-img"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
@@ -15,75 +15,75 @@
      id="layer1"
      style="display:inline">
     <g
-       id="g1600"
-       transform="matrix(0.71808687,0,0,0.71808687,72.169759,72.169766)">
+       id="allcircles"
+       transform="rotate(108,256,256)">
       <circle
          style="fill:#ffffff;"
-         id="path1060-8"
+         id="c1"
          cx="256"
-         cy="-36.018616"
-         r="70" />
-      <circle
-         style="opacity:0.45;fill:#ffffff;"
-         id="path1060-9-3"
-         cx="256"
-         cy="548.01862"
-         r="70" />
-    </g>
-    <circle
-       style="opacity:0.56;fill:#ffffff;"
-       id="path1060-9-3-2"
-       cx="56.635326"
-       cy="567.27612"
-       r="70"
-       transform="rotate(-36.000001)" />
-    <g
-       id="g1600-7-7"
-       transform="matrix(0.22190104,-0.6829412,0.6829412,0.22190104,24.360386,374.02628)">
-      <circle
-         style="opacity:0.12;fill:#ffffff;"
-         id="path1060-8-1-6"
-         cx="256"
-         cy="-36.018616"
-         r="70" />
-      <circle
-         style="opacity:0.67;fill:#ffffff;"
-         id="path1060-9-3-2-2"
-         cx="256"
-         cy="548.01862"
-         r="70" />
-    </g>
-    <g
-       id="g1600-7-7-4"
-       transform="matrix(-0.22190104,-0.6829412,0.6829412,-0.22190104,137.97373,487.63961)">
-      <circle
-         style="opacity:0.23;fill:#ffffff;"
-         id="path1060-8-1-6-2"
-         cx="256"
-         cy="-36.018616"
-         r="70" />
-      <circle
-         style="opacity:0.78;fill:#ffffff;"
-         id="path1060-9-3-2-2-8"
-         cx="256"
-         cy="548.01862"
-         r="70" />
-    </g>
-    <g
-       id="g1600-7-7-4-7"
-       transform="matrix(-0.58094448,-0.42208088,0.42208088,-0.58094448,296.66908,512.77449)">
-      <circle
-         style="opacity:0.34;fill:#ffffff;"
-         id="path1060-8-1-6-2-7"
-         cx="256"
-         cy="-36.018616"
-         r="70" />
+         cy="46.305271"
+         r="40" />
       <circle
          style="opacity:0.89;fill:#ffffff;"
-         id="path1060-9-3-2-2-8-1"
+         id="c2"
+         cx="-357.58136"
+         cy="153.05942"
+         transform="rotate(-144)"
+         r="40" />
+      <circle
+         style="opacity:0.78;fill:#ffffff;"
+         id="c3"
+         cx="-322.57883"
+         cy="374.05685"
+         transform="rotate(-108)"
+         r="40" />
+      <circle
+         style="opacity:0.67;fill:#ffffff;"
+         id="c4"
+         cx="-164.36212"
+         cy="532.27356"
+         transform="rotate(-72.000001)"
+         r="40" />
+      <circle
+         style="opacity:0.56;fill:#ffffff;"
+         id="c5"
+         cx="56.635326"
+         cy="567.27612"
+         transform="rotate(-36.000001)"
+         r="40" />
+      <circle
+         style="opacity:0.40;fill:#ffffff;"
+         id="c6"
          cx="256"
-         cy="548.01862"
-         r="70" />
+         cy="465.69473"
+         r="40" />
+      <circle
+         style="opacity:0.34;fill:#ffffff;"
+         id="c7"
+         cx="-357.58136"
+         cy="-266.33005"
+         transform="rotate(-144)"
+         r="40" />
+      <circle
+         style="opacity:0.23;fill:#ffffff;"
+         id="c8"
+         cx="-322.57883"
+         cy="-40.332603"
+         transform="rotate(-108)"
+         r="40" />
+      <circle
+         style="opacity:0.12;fill:#ffffff;"
+         id="c9"
+         cx="-164.36212"
+         cy="112.88408"
+         transform="rotate(-72.000001)"
+         r="40" />
+        <circle
+         style="opacity:0;fill:#ffffff;"
+         id="c10"
+         cx="56.635323"
+         cy="147.88664"
+         r="40" />
     </g>
   </g>
 </svg>
