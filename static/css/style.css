@@ -1,0 +1,55 @@
+[data-bs-theme=dark] {
+    --bs-body-color: #c7cdd3;
+    --bs-secondary-color: rgba(173, 181, 189, 0.8);
+    --bs-border-color: var(--bs-dark-border-subtle);
+}
+
+[data-bs-theme=dark] body{
+    background-color: #121212;
+}
+
+html { 
+    height:100%;
+}
+body { 
+    min-height:100%;
+}
+
+/* .wrapper{
+    background-image: url(../img/load_alpha.svg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: -700px -900px;
+    background-size: 1800px;
+
+    animation: 10s linear infinite animate;
+} */
+
+.wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+#loading-img{
+    position: absolute;
+    top: -800px;
+    left: -800px;
+    width: 1600px;
+    height: auto;
+    animation: 120s linear infinite animate;
+    z-index: -1;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(-360deg);
+    }
+}
