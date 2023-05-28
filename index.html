@@ -9,7 +9,7 @@
       href="static/img/load_alpha.png"
       type="image/x-icon"
     />
-    <title>Home - Terra</title>
+    <title>Michal "Terra" Doležel</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
@@ -17,12 +17,14 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./static/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="static/css/style.css" />
   </head>
-  <body>
+  <body class="d-flex">
     <div class="wrapper">
-      <div id="loading-bg"></div>
-      <!-- <img src="static/img/load_alpha.svg" alt="" id="loading-img"> -->
       <svg
         width="512"
         height="512"
@@ -35,12 +37,7 @@
         <defs id="defs2" />
         <g id="layer1" style="display: inline">
           <g id="allcircles" transform="rotate(108,256,256)">
-            <circle
-              id="c1"
-              cx="256"
-              cy="46.305271"
-              r="40"
-            />
+            <circle id="c1" cx="256" cy="46.305271" r="40" />
             <circle
               id="c2"
               cx="-357.58136"
@@ -69,12 +66,7 @@
               transform="rotate(-36.000001)"
               r="40"
             />
-            <circle
-              id="c6"
-              cx="256"
-              cy="465.69473"
-              r="40"
-            />
+            <circle id="c6" cx="256" cy="465.69473" r="40" />
             <circle
               id="c7"
               cx="-357.58136"
@@ -107,10 +99,180 @@
         </g>
       </svg>
     </div>
+    <div id="index-content" class="pt-4 px-md-5 align-items-center flex-grow-1">
+      <select
+        data-i18n-switcher
+        class="form-select form-select-sm w-auto locale-switcher"
+      >
+        <option value="cs">CS</option>
+        <option value="en">EN</option>
+      </select>
+      <div class="align-self-center text-center mt-4">
+        <div class="lead" data-i18n="greeting">Ahoj!</div>
+        <div class="display-6" data-i18n="mynameis">Jmenuji se...</div>
+        <h1 class="display-3 name-title text-center">Michal Doležel</h1>
+      </div>
+      <hr class="w-75 my-md-1" />
+      <div class="my-2 mx-5 text-justify">
+        <div id="info-carousel" class="carousel slide" data-bs-touch="false">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#info-carousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#info-carousel"
+              data-bs-slide-to="1"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div data-i18n="aboutme">
+                <p>
+                  Jsem čerstvý absolvent technické střední školy a budoucí student
+                  <b
+                    >Fakulty informatiky na
+                    <abbr title="Masarykova univerzita, Brno"
+                      >MUNI</abbr
+                    ></b
+                  >.
+                </p>
+                <p>
+                  <code>webdev:</code>
+                  Hodně času trávím <b>tvorbou webů</b>, protože jsou
+                  velmi dostupné a praktické pro běžné uživatele. Zamiloval jsem
+                  se do <b>Bootstrapu</b>, který jsem uměl dříve než
+                  CSS samotné a který formuje vzhled všech mých stránek. Na
+                  back-end jsem používal <b>Django</b> a ve škole jsme
+                  dělali ve <b>Flasku</b>. Také jsem si vyzkoušel
+                  <b>Vue.js</b> a plánuji se doučit
+                  <b>Nuxt.js</b>.
+                </p>
+                <p>
+                  <code>další:</code>
+                  Mám velkou zkušenost s jazykem <b>Python</b>. Bavilo
+                  mě <b>tvoření her v Unity (C#)</b>. Z relačních
+                  databází umím <b>MySQL a SQLite</b>. Ovládám
+                  <b>Git/GitHub</b>. Jsem fanouškem
+                  <b>Linuxu</b>.
+                </p>
+                <code>aktuálně:</code>
+                Rád se učím nové věci a zajímají mě nové technologie. Aktuálně
+                se seznamuji s prog. jazykem <b>Java</b> v podobě
+                Minecraft modů. Také mě fascinuje <b>AI</b> a chtěl
+                bych v budoucnu experimentovat s
+                <b>Stable Diffusion</b>.
+              </div>
+              <div class="text-center mb-3">
+                <a
+                  href="https://github.com/itzTerra"
+                  class="lead"
+                  target="_blank"
+                  data-i18n="projects"
+                  >— Projekty —</a
+                >
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="mb-0" data-i18n="hobbies">
+                <b>Volný čas</b> většinou trávím sebevzděláváním a realizací
+                svých nápadů v doprovodu dobré hudby. V
+                <a
+                  href="https://open.spotify.com/user/m07wl81b71nzp3k8z75hc62xo?si=24b1cb525f884b6d"
+                  >mém Spotify</a
+                >
+                playlistu najdete různé žánry od Beethovena po finský pop.
+                <p>
+                  <code>sport:</code>
+                  Nemám rád zimu a proto jsem nejaktivnější v létě, když je
+                  hezky. Snažím se
+                  <b>jezdit na kole, plavat a bruslit.</b>
+                </p>
+                Občas si dám videoherní session s kamarády :).
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#info-carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#info-carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div id="info-normal">
+          <p data-i18n="aboutme">...</p>
+          <div class="text-center mb-3">
+            <a
+              href="https://github.com/itzTerra"
+              class="lead"
+              target="_blank"
+              data-i18n="projects"
+              >— Projekty —</a
+            >
+          </div>
+          <p class="mb-0" data-i18n="hobbies">...</p>
+        </div>
+      </div>
+
+      <hr class="w-75 mt-md-0 mb-md-2" />
+      <div class="display-5 text-center mb-3" data-i18n="contact">
+        a najdete mě na...
+      </div>
+      <div class="grid-container mb-3">
+        <i class="bi bi-envelope"></i>
+        <div data-i18n="email">E-mailu</div>
+        <div>
+          <a href="mailto:m.dolezel42@gmail.com" target="_blank"
+            >m.dolezel42@gmail.com</a
+          >
+        </div>
+        <i class="bi bi-github"></i>
+        <div data-i18n="github">GitHubu</div>
+        <div>
+          <a href="https://github.com/itzTerra" target="_blank">itzTerra</a>
+        </div>
+        <i class="bi bi-discord"></i>
+        <div data-i18n="discord">Discordu</div>
+        <div>
+          <a
+            href="https://discordapp.com/users/273461148441903105/"
+            target="_blank"
+            >Terra#9273</a
+          >
+        </div>
+      </div>
+      <div class="fs-6 fw-lighter mt-auto mb-4" data-i18n="date">
+        květen 2023
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script src="static/js/i18n.js"></script>
+    <!-- <script src="static/js/script.js"></script> -->
   </body>
 </html>
